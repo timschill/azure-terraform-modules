@@ -72,7 +72,7 @@ jobs:
       fail-fast: false
     uses: ./.github/workflows/reusable-validate.yaml
     with:
-      terraformVersion: '1.3.4'
+      terraformVersion: '1.5.5'
       moduleRootDirectory: ${{ matrix.directory }}
     secrets:
       appId: ${{ secrets.appId }}
