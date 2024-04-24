@@ -41,7 +41,7 @@ jobs:
           fi
 
       - name: Get changed files
-        uses: Ana06/get-changed-files@v2.2.0
+        uses: Ana06/get-changed-files@v2.3.0
         id: raw-files
         with:
           format: 'json'
